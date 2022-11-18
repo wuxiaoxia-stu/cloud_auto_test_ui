@@ -1,0 +1,433 @@
+{
+  "uid" : "81511560c3526654",
+  "name" : "04用例-升级订单",
+  "fullName" : "cases.test_03_order.TestOrder#test_04_order_upgrade",
+  "historyId" : "919c40e714086d4968904d1a0a145a8d",
+  "time" : {
+    "start" : 1657619491550,
+    "stop" : 1657619510484,
+    "duration" : 18934
+  },
+  "description" : "04用例-搜索订单-升级订单-搜索订单-审核订单",
+  "descriptionHtml" : "<p>04用例-搜索订单-升级订单-搜索订单-审核订单</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrder",
+    "time" : {
+      "start" : 1657619395811,
+      "stop" : 1657619396895,
+      "duration" : 1084
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击授权管理按钮",
+      "time" : {
+        "start" : 1657619395811,
+        "stop" : 1657619395846,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单管理按钮",
+      "time" : {
+        "start" : 1657619396847,
+        "stop" : 1657619396895,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "04用例-搜索订单-升级订单-搜索订单-审核订单",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入合同编号",
+      "time" : {
+        "start" : 1657619491550,
+        "stop" : 1657619491613,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contract_no",
+        "value" : "'001234567812345'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击搜索按钮",
+      "time" : {
+        "start" : 1657619491613,
+        "stop" : 1657619491845,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单列表的升级按钮",
+      "time" : {
+        "start" : 1657619492846,
+        "stop" : 1657619492903,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入合同号",
+      "time" : {
+        "start" : 1657619493904,
+        "stop" : 1657619494015,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contract_number",
+        "value" : "'001234567812348'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入销售名称",
+      "time" : {
+        "start" : 1657619494015,
+        "stop" : 1657619494197,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sales_name",
+        "value" : "'lili'"
+      }, {
+        "name" : "sales_phone",
+        "value" : "'18812345678'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击设备信息页中的PUS按钮",
+      "time" : {
+        "start" : 1657619495197,
+        "stop" : 1657619495218,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击升级此设备按钮",
+      "time" : {
+        "start" : 1657619495218,
+        "stop" : 1657619495386,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击选择设备套餐中的PUSS300按钮",
+      "time" : {
+        "start" : 1657619496387,
+        "stop" : 1657619496420,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击确定按钮",
+      "time" : {
+        "start" : 1657619497421,
+        "stop" : 1657619497531,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1657619498532,
+        "stop" : 1657619498588,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入合同编号",
+      "time" : {
+        "start" : 1657619500627,
+        "stop" : 1657619500689,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contract_no",
+        "value" : "'001234567812348'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击搜索按钮",
+      "time" : {
+        "start" : 1657619500690,
+        "stop" : 1657619500805,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单列表的详情按钮",
+      "time" : {
+        "start" : 1657619501806,
+        "stop" : 1657619501882,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单详情-财务审核提交按钮",
+      "time" : {
+        "start" : 1657619502882,
+        "stop" : 1657619502913,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单列表的详情按钮",
+      "time" : {
+        "start" : 1657619503913,
+        "stop" : 1657619503949,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单详情-总经理审批提交按钮",
+      "time" : {
+        "start" : 1657619504949,
+        "stop" : 1657619505001,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单列表的详情按钮",
+      "time" : {
+        "start" : 1657619506001,
+        "stop" : 1657619506037,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "订单详情-实施部署选择Uey并提交",
+      "time" : {
+        "start" : 1657619507038,
+        "stop" : 1657619509207,
+        "duration" : 2169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrder::0",
+    "time" : {
+      "start" : 1657619516185,
+      "stop" : 1657619516185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "云端服务管理系统"
+  }, {
+    "name" : "feature",
+    "value" : "授权管理-订单管理模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "升级订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "SK-20210820EMGB"
+  }, {
+    "name" : "thread",
+    "value" : "32152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_03_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "order_info",
+    "value" : "{'contract_number': '001234567812348', 'sales_name': 'lili', 'sales_phone': '18812345678', 'search_contract_number': '001234567812345'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81511560c3526654.json",
+  "parameterValues" : [ "{'contract_number': '001234567812348', 'sales_name': 'lili', 'sales_phone': '18812345678', 'search_contract_number': '001234567812345'}" ]
+}

@@ -1,0 +1,211 @@
+{
+  "uid" : "b392e1c2d8f2e900",
+  "name" : "05用例-删除订单-合同编号为['001234567812345']",
+  "fullName" : "cases.test_03_order.TestOrder#test_05_order_delete",
+  "historyId" : "a434aee42e4438b53f2d6a9b87a8f3bc",
+  "time" : {
+    "start" : 1657619510486,
+    "stop" : 1657619513601,
+    "duration" : 3115
+  },
+  "description" : "\n        05用例-搜索订单-删除订单\n        ",
+  "descriptionHtml" : "<pre><code>    05用例-搜索订单-删除订单\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrder",
+    "time" : {
+      "start" : 1657619395811,
+      "stop" : 1657619396895,
+      "duration" : 1084
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击授权管理按钮",
+      "time" : {
+        "start" : 1657619395811,
+        "stop" : 1657619395846,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单管理按钮",
+      "time" : {
+        "start" : 1657619396847,
+        "stop" : 1657619396895,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        05用例-搜索订单-删除订单\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入合同编号",
+      "time" : {
+        "start" : 1657619510486,
+        "stop" : 1657619510545,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contract_no",
+        "value" : "['001234567812345']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击搜索按钮",
+      "time" : {
+        "start" : 1657619510545,
+        "stop" : 1657619510635,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击订单列表的删除按钮",
+      "time" : {
+        "start" : 1657619511636,
+        "stop" : 1657619511685,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击确定删除",
+      "time" : {
+        "start" : 1657619512686,
+        "stop" : 1657619512735,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrder::0",
+    "time" : {
+      "start" : 1657619516185,
+      "stop" : 1657619516185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "云端服务管理系统"
+  }, {
+    "name" : "feature",
+    "value" : "授权管理-订单管理模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "删除订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "SK-20210820EMGB"
+  }, {
+    "name" : "thread",
+    "value" : "32152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_03_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "order_info",
+    "value" : "['001234567812345']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b392e1c2d8f2e900.json",
+  "parameterValues" : [ "['001234567812345']" ]
+}

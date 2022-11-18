@@ -1,0 +1,26 @@
+# 登录信息--字典，使用fixture进行参数化
+login:
+  url: http://192.168.1.189:8849/
+  username: admin
+  password: admin123
+ # 用户信息--字典，使用fixture进行参数化
+userinfo:
+ username: xx
+ password: xx
+ email: test123@163.com
+ phone: 18812345678
+ # 订单信息--列表中嵌套字典，使用@pytest.mark.parametrize进行参数化
+orderinfo: [{
+  contract_number: [x01234567812345, x01234567812346, x01234567812347],
+  sales_name: lili,
+  sales_phone: 18812345678,
+  head_name: lili,
+  head_phone: 18812345679,
+  contact_name: lili,
+  contact_phone: 18812345679,
+  consignee_name: lili,
+  consignee_phone: 18812345679,
+  consignee_address: 北京市中心天安门广场
+  }]
+
+
