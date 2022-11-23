@@ -9,7 +9,7 @@ from page.page_user_management import UserManagementPage
 
 @allure.epic('云端服务管理系统')
 @allure.feature('系统管理-用户管理模块')
-@allure.severity(allure.severity_level.CRITICAL)
+@allure.severity(allure.severity_level.NORMAL)
 class TestUserManagement(Base):
 
     current_time = time.strftime('%y%m%d%H%M%S')  # 获取当前时间

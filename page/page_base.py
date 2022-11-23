@@ -91,7 +91,7 @@ class PageBase:
 
     # 非select下拉框
     def base_ul_selector(self, ul_loc, li_loc):
-        self.base_click(ul_loc)  # 定位到下拉列表
+        # self.base_click(ul_loc)  # 定位到下拉列表
         self.base_click(li_loc)  # 定位到下拉列表选项
 
     # 判断闪退提示窗体新是否含有属性attribute,值value

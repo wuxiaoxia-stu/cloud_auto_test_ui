@@ -1,6 +1,6 @@
 # 登录信息--字典，使用fixture进行参数化
 login:
-  url: http://192.168.1.189:8849/
+  url: http://192.168.1.189:8848/
   username: admin
   password: admin123
  # 用户信息--字典，使用fixture进行参数化

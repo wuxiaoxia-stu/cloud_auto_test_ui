@@ -1,0 +1,5 @@
+/log
+/report
+/allure-report
+/.vs
+/.pytest_cache

@@ -20,7 +20,7 @@ from page.page_base import PageBase
 class PageOrderCreate(PageBase):
 
     """页面元素参数值"""
-    hospital = '北京医院'  # 单位名称
+    hospital = '北京市医院'  # 单位名称
 
     """侧栏元素"""
     authorization_management_button_loc = By.XPATH, "//span[text()='授权管理']"  # 授权管理按钮
@@ -34,21 +34,25 @@ class PageOrderCreate(PageBase):
     # 选择区域按钮, 通过哥哥定位弟弟
     create_order_area_button_loc = By.XPATH, "//label[text()='选择区域']/following-sibling::div//input"
     # 省份下拉列表，通过子元素定位父辈元素
-    create_order_area_selector_ul_loc = By.XPATH, "(//span[text()='北京']/ancestor::ul)[2]"
+    create_order_area_selector_ul_loc = By.XPATH, "(//span[text()='北京市']/ancestor::ul)[2]"
     # 省份下拉列表
-    create_order_area_li_loc = By.XPATH, "(//span[text()='北京'])[2]"
+    create_order_area_li_loc = By.XPATH, "(//span[text()='北京市'])[2]"
     # 市级下拉列表，通过子元素定位父辈元素
     create_order_area2_selector_ul_loc = By.XPATH, "//span[text()='北京市']/ancestor::ul"
-    # 市级下拉列表，选择广州市
-    create_order_area2_li_loc = By.XPATH, "//span[text()='北京市']"
+    # 市级下拉列表，选择北京市
+    create_order_area2_li_loc = By.XPATH, "(//span[text()='北京市'])[3]"
+    # 区级下拉列表，通过子元素定位父辈元素
+    create_order_area3_selector_ul_loc = By.XPATH, "(//span[text()='西城区']/ancestor::ul)[1]"
+    # 区级下拉列表，选择西城区
+    create_order_area3_li_loc = By.XPATH, "(//span[text()='西城区'])[1]"
     # 选择绑定单位按钮
     create_order_binding_hospital_button_loc = (By.XPATH,
                                                 "//div[@class='el-dialog__body']//input[@placeholder='请选择授权单位']")
     # 单位下拉列表，通过子元素定位父辈
     create_order_binding_hospital_selector_ul_loc = (By.XPATH,
-                                                     "(//span[text()='北京医院']/ancestor::ul)[2]")
+                                                     "(//span[text()='北京市医院']/ancestor::ul)[2]")
     # 选择单位名称
-    create_order_binding_hospital_li_loc = By.XPATH, "(//span[text()='北京医院'])[2]"
+    create_order_binding_hospital_li_loc = By.XPATH, "(//span[text()='北京测试医院2'])[2]"
     # create_order_binding_hospital_li_loc = By.XPATH, "//div[14]//span[text()='" + hospital + "']"
     # 销售名称输入框
     create_order_sales_name_text_loc = By.XPATH, "//label[text()='销售']/following-sibling::div[1]//input"
@@ -69,13 +73,17 @@ class PageOrderCreate(PageBase):
     # 收货地址按钮
     create_order_consignee_area_button_loc = By.XPATH, "//label[text()='收货地址']/following-sibling::div//input"
     # 省份下拉列表，通过子元素定位父辈元素
-    create_order_consignee_area_selector_ul_loc = By.XPATH, "(//span[text()='北京']/ancestor::ul)[3]"
+    create_order_consignee_area_selector_ul_loc = By.XPATH, "(//span[text()='北京市']/ancestor::ul)[4]"
     # 省份下拉列表
-    create_order_consignee_area_li_loc = By.XPATH, "(//span[text()='北京'])[3]"
+    create_order_consignee_area_li_loc = By.XPATH, "(//span[text()='北京市'])[4]"
     # 市级下拉列表，通过子元素定位父辈元素
-    create_order_consignee_area2_selector_ul_loc = By.XPATH, "(//span[text()='北京市']/ancestor::ul)[2]"
-    # 市级下拉列表，选择广州市
-    create_order_consignee_area2_li_loc = By.XPATH, "(//span[text()='北京市'])[2]"
+    create_order_consignee_area2_selector_ul_loc = By.XPATH, "(//span[text()='北京市']/ancestor::ul)[5]"
+    # 市级下拉列表，选择北京市
+    create_order_consignee_area2_li_loc = By.XPATH, "(//span[text()='北京市'])[5]"
+    # 区级下拉列表，通过子元素定位父辈元素
+    create_order_consignee_area3_selector_ul_loc = By.XPATH, "(//span[text()='西城区']/ancestor::ul)[2]"
+    # 区级下拉列表，选择西城区
+    create_order_consignee_area3_li_loc = By.XPATH, "(//span[text()='西城区'])[2]"
     # 详细地址输入框
     create_order_consignee_address_text_loc = By.XPATH, "//label[text()='详细地址']/following-sibling::div[1]//input"
     # 提交订单按钮
@@ -133,6 +141,8 @@ class PageOrderCreate(PageBase):
         self.base_ul_selector(self.create_order_area_selector_ul_loc, self.create_order_area_li_loc)
         self.base_sleep()
         self.base_ul_selector(self.create_order_area2_selector_ul_loc, self.create_order_area2_li_loc)
+        self.base_sleep()
+        self.base_ul_selector(self.create_order_area3_selector_ul_loc, self.create_order_area3_li_loc)
 
     @allure.step('选择绑定单位')
     def select_create_order_binding_hospital(self):

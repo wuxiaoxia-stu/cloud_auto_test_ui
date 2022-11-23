@@ -104,7 +104,7 @@ class UserManagementPage(PageBase):
 
     @allure.step('输入手机号')
     def input_phone(self, phone):
-        self.base_input(self.password_text_loc, phone)  # 输入手机号
+        self.base_input(self.phone_text_loc, phone)  # 输入手机号
 
     @allure.step('点击提交按钮')
     def click_submit_button(self):
